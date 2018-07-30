@@ -1,5 +1,5 @@
 body{
-  background-color: #ffe082;
+  background-color: #DCDCDC;
   color: black;
   font-family: "garamond";
   font-size: 24pt;
@@ -8,21 +8,21 @@ body{
 
 .intro{
   text-align: left;
-  background-color: #ff5722;
-  color:white;
+  background-color: #015249;
+  color: white;
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-size: 24px;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #ff9e40;
+  background-color: #57BC90;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   font-style: bold;
   text-align: center;
   padding: 16px;
@@ -32,12 +32,12 @@ body{
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #c43c00;
-  color: black;
+  background-color: #015249;
+  color: white;
 }
 
 .active {
-  background-color: #c43c00;
+  background-color: #015249;
   color: white;
 }
 
@@ -64,7 +64,7 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #57BC90;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -80,7 +80,7 @@ body{
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #015249;
     color: black;
 }
 
