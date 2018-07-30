@@ -73,3 +73,12 @@ body{
 .sat_act_text{
   font-size:16pt
 }
+
+.temp_cheat{
+  text-align: center;
+  padding: 30px;
+}
+
+.backbutton{
+  text-align: right;
+}
