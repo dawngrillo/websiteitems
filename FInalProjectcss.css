@@ -67,6 +67,18 @@ body{
   }
 }
 
+.sat_act_header{
+  font-size:20pt
+}
 .sat_act_text{
-  font-size:18pt
+  font-size:16pt
+}
+
+.temp_cheat{
+  text-align: center;
+  padding: 30px;
+}
+
+.backbutton{
+  text-align: right;
 }
