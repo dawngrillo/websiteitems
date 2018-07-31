@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="FInalProjectcss.css">
+<link rel="stylesheet" href="FinalProjectcss.css">
+<script src = "FinalProjectjs.js"></script>
 <html>
   <head>
-    <title>Resources</title>
+    <title>Templates</title>
   </head>
   <body>
 
@@ -11,13 +12,81 @@
       <font size = "24" >Name</font>
     </div>
 
+    <!--creates a navigation bar-->
     <div class="topnav" id="myTopnav">
-      <a href="index.html">Home</a>
-      <a href="ways_toStudy.html">Study Tips</a>
-      <a href="ResourcesPage.html" class="active">Resources</a>
-      <a href="sat_act_page.html">SAT & ACT</a>
-      <a href="collegereadiness.html">College Readiness</a>
-      <a href="calendarPlanner.html">Calendar</a>
+      <!--Allows each tab to have a drop down bar-->
+        <div class="dropdown">
+         <button class="dropbtn"><a href="index.html">Home</a>
+           <i class="fa fa-caret-down"></i>
+         </button>
+         <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+         </div>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div class="dropdown">
+         <button class="dropbtn"><a href="ways_toStudy.html">Study Tips</a>
+
+           <i class="fa fa-caret-down"></i>
+         </button>
+         <div class="dropdown-content">
+           <a href="ways_toRelax.html">Ways to Relax</a>
+           <a href="ways_music.html">Music Suggestion</a>
+           <a href="ways_askanyone.html">Comment</a>
+         </div>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div class="dropdown">
+         <button class="dropbtn"><a href="ResourcesPage.html"  class="active">Resources</a>
+           <i class="fa fa-caret-down"></i>
+         </button>
+         <div class="dropdown-content">
+           <a href="Templates.html">Templates</a>
+           <a href="CheatSheets.html">Cheat Sheets</a>
+         </div>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+      <div class="dropdown">
+       <button class="dropbtn"><a href="sat_act_page.html">SAT & ACT</a>
+         <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-content">
+         <a href="#">Link 1</a>
+         <a href="#">Link 2</a>
+         <a href="#">Link 3</a>
+       </div>
+       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+      <div class="dropdown">
+       <button class="dropbtn"><a href="collegereadiness.html">College Readiness</a>
+         <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-content">
+         <a href="#">Link 1</a>
+         <a href="#">Link 2</a>
+         <a href="#">Link 3</a>
+       </div>
+       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+      <div class="dropdown">
+       <button class="dropbtn"><a href="calendarPlanner.html">Calendar</a>
+         <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-content">
+         <a href="#">Link 1</a>
+         <a href="#">Link 2</a>
+         <a href="#">Link 3</a>
+       </div>
+       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -26,10 +95,10 @@
     <div class = "backbutton">
       <a href = "ResourcesPage.html">Back</a>
     </div>
-    
-    <div class = "linkstotemplates">
-      <a href = ""><img src = ".jpg"></a>
-      <a href = ""><img src = ".jpg"></a>
+
+    <!--makes a class for the header-->
+    <div class = "resourcesheader">
+      <p>Templatess</p>
     </div>
 
   </body>
