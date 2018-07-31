@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="FinalProjectcss.css">
+<script src = "FinalProjectjs.js"></script>
 <html>
   <head>
-    <title>Home Page</title>
+    <title>Resources</title>
   </head>
   <body>
 
@@ -11,8 +12,9 @@
       <font size = "24" >Name</font>
     </div>
 
+    <!--creates a navigation bar-->
     <div class="topnav" id="myTopnav">
-
+      <!--Allows each tab to have a drop down bar-->
         <div class="dropdown">
          <button class="dropbtn"><a href="index.html">Home</a>
            <i class="fa fa-caret-down"></i>
@@ -31,9 +33,9 @@
            <i class="fa fa-caret-down"></i>
          </button>
          <div class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
+           <a href="ways_toRelax.html">Ways to Relax</a>
+           <a href="ways_music.html">Music Suggestion</a>
+           <a href="ways_askanyone.html">Comment</a>
          </div>
          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
@@ -43,9 +45,8 @@
            <i class="fa fa-caret-down"></i>
          </button>
          <div class="dropdown-content">
-           <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a>
+           <a href="Templates.html">Templates</a>
+           <a href="CheatSheets.html">Cheat Sheets</a>
          </div>
          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
@@ -91,14 +92,11 @@
       </a>
     </div>
 
-    <div class = "welcome">
-      click the image to visit the link
+<!--makes a class for the header-->
+    <div class = "resourcesheader">
+      <p>Resources</p>
     </div>
 
-    <div class = "temp_cheat">
-      <a href = "Templates.html"><img src = "templateimg.png"></a>
-      <a href = "CheatSheets.html"><img src = "cheatsheetimg.jpg" width = "300" height = "200"></a>
-    </div>
 
   </body>
 </html>
