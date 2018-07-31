@@ -134,3 +134,9 @@ body{
 .backbutton{
   text-align: right;
 }
+
+.resourcesheader{
+  text-align: center;
+  color: #201156;
+  font-size: 60pt
+}
