@@ -19,7 +19,7 @@
          <i class="fa fa-caret-down"></i>
        </button>
        <div class="dropdown-content">
-        
+
        </div>
        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
@@ -90,6 +90,13 @@
     <h1>Ask Anyone!</h1>
     <p><font size=5>Here you are able to ask and get responses on your
       study needs? Feel free to ask any question that could be constructive for you and others.</p>
-
+      <form action="/html/tags/html_form_tag_action.cfm" method="post">
+<div>
+<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+Hey... say something!
+</textarea>
+</div>
+<button type="button" onclick="search()">submit</button>
+</form>
   </body>
 </html>
