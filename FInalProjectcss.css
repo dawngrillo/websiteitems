@@ -146,7 +146,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    margin-top: 148px;
+    margin-top: 143px;
     background-color: #015249;
     overflow-x: hidden;
     transition: 0.5s;
@@ -217,6 +217,7 @@ body{
 .math{
   text-align: center;
   font-size: 40px;
+  font-family: garamond;
 }
 
 .cheatsheetparagraph{
@@ -227,6 +228,7 @@ body{
 
 .science{
   text-align: center;
+  font-family: garamond;
 }
 
 #myBtn {
@@ -247,4 +249,40 @@ body{
 
 #myBtn:hover {
     background-color: #015249; /* Add a dark-grey background on hover */
+}
+
+.language{
+  text-align: center;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #57BC90;
+    padding: 20px 40px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color: #015249;
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
