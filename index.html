@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="FinalProjectcss.css">
 <script src = "FinalProjectjs.js"></script>
-<link rel="icon" href="logo_transparent.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="logo_transparent.png" type="image/gif" sizes="16x16"> <!-- the icon on the website tab -->
 <html>
   <head>
     <title>Home Page</title>
@@ -85,10 +85,38 @@
       </a>
     </div>
 
-    <div style="padding-left:16px">
+  <!--  <div style="padding-left:16px">
       <h2>Home Page</h2>
       <p>Our Vision</p>
     </div>
+  -->
+<!-- TESTING -->
 
-  </body>
+
+  <img class="mySlides" src="slideshowstudy.jpg" style="width:100%">
+  <img class="mySlides" src="slideshowocean.jpg" style="width:100%">
+  <img class="mySlides" src="slideshowgrad.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+
+<h2> Our Vision </h2>
+At Study Crunch, we want to help students succeed. We provide students with subject-specific resources, effective study habit ideas, and an organizational calendar. Additonally, we prepare students for the future with SAT and ACT breakdowns and college guides.
 </html>
+
+<h2>About the Creators </h2>

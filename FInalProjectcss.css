@@ -192,3 +192,7 @@ body{
     display: none;
   }
 }
+
+.mySlides {
+  display:none;
+}
