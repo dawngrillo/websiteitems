@@ -292,9 +292,15 @@ a:active {
 
 }
 .logo{
->>>>>>> d83a6faa6870908f519c11f7cecd54419c691444
 }
 
+.resourcesinfo{
+  text-align: center;
+}
+
+.paragraph{
+text-align: center;
+}
 .study{
   text-align: center;
 }

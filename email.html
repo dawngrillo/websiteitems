@@ -5,18 +5,19 @@
 <link rel="icon" href="logo_transparent.png" type="image/gif" sizes="16x16"> <!-- the icon on the website tab -->
 <html>
   <head>
-    <title>Home Page</title>
+    <title>Emails</title>
   </head>
   <body>
 
     <div class = "intro">
-      <font size = "24"  face= "Impact">studycrunch</font>
+      <font size = "24" >studycrunch</font>
     </div>
 
+    <!--creates a navigation bar-->
     <div class="topnav" id="myTopnav">
-
+      <!--Allows each tab to have a drop down bar-->
         <div class="dropdown">
-         <button class="dropbtn"><a href="index.html"  class="active">Home</a>
+         <button class="dropbtn"><a href="index.html">Home</a>
            <i class="fa fa-caret-down"></i>
          </button>
          <div class="dropdown-content">
@@ -38,7 +39,7 @@
         </div>
 
         <div class="dropdown">
-         <button class="dropbtn"><a href="ResourcesPage.html">Resources</a>
+         <button class="dropbtn"><a href="ResourcesPage.html"  class="active">Resources</a>
            <i class="fa fa-caret-down"></i>
          </button>
          <div class="dropdown-content">
@@ -64,8 +65,8 @@
          <i class="fa fa-caret-down"></i>
        </button>
        <div class="dropdown-content">
+         <a href="careercr.html">Career Pathways</a>
          <a href="athleticscr.html">Athletics</a>
-         <a href="careercr.html">Find My Major</a>
          <a href="financescr.html">Finances/Scholarships</a>
        </div>
        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
@@ -84,43 +85,25 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
-<!-- slideshow images -->
-<div class = "container">
-  <img class="mySlides" src="newslideshowbook.jpg" style="width:100%">
-  <img class="mySlides" src="newslideshowocean.jpg" style="width:100%">
-  <img class="mySlides" src="newslideshowgrad.jpg" style="width:100%">
-  <div class="learn">succeed with studycrunch</div>
-</div>
 
-<!--javascript for slideshow images-->
-<script>
-var myIndex = 0;
-carousel();
+    <div class = "backbutton">
+      <a href = "Templates.html">Back</a>
+    </div>
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 4000); // Change image every 4 seconds
-}
-</script>
 
-<h2> Our Vision </h2>
-<p><img alt= "logo" style="padding: 0 15px; float: right;" src="newlogotransparent.png" width="25%" height="25%"></p>
-<p class="visiontext">Our vision at studycrunch is to have students succeed in the classroom and beyond. We provide SAT/ACT guides and subject-specific resources ranging from Spanish to multivariable calculus. Additionally, we have organizational tools and study habits so students can succeed no matter what class they are in.
-At studycrunch, we also prepare students for the future with college guides complete with financial aid and atheltic information, and résumé templates so they can land all their job interviews.
-</p></br>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="essay.html">Essay Templates</a>
+      <a href="email.html">Email Templates</a>
+      <a href="resume.html">Resume Templates</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    <!--makes a class for the header-->
+    <div class = "resourcesheader">
+      <p>Email Templates</p>
 
-<h2>About the Creators </h2>
-<p> A group of hardworking and determined girls, who aimed to create a website for students in need.</p>
-
-<p><img alt= "logo" style="padding: 0 15px; float: right;" src="squadpic.jpg" width="26%" height="26%"></p>
-<p class="visiontext">Audrey - Chief Financial Officer </br> Dawn - Chief Executive Officer </br> Raye - Chief Technology Officer </br> Sara - Chief Executive Officer </br> Tori - Chief Visionary Officer
-</p></br>
-
-</html>
+      <div class = "email">
+        <button type="button" class="block"><a href = "https://www.wikihow.com/Sample/Email-to-Teacher-for-Clarification" target="_blank">Email for Clarification</a></button>
+        <button type="button" class="block"><a href = "https://www.wikihow.com/Sample/Email-to-Ask-a-Teacher-for-an-Extension" target="_blank">Email for Extension</a></button>
+      </div>
+    </div>
