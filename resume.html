@@ -5,24 +5,22 @@
 <link rel="icon" href="logo_transparent.png" type="image/gif" sizes="16x16"> <!-- the icon on the website tab -->
 <html>
   <head>
-    <title>SAT & ACT</title>
+    <title>Resumes</title>
   </head>
   <body>
 
     <div class = "intro">
-      <font size = "24"  face= "Impact">studycrunch</font>
+      <font size = "24" >studycrunch</font>
     </div>
 
+    <!--creates a navigation bar-->
     <div class="topnav" id="myTopnav">
-
+      <!--Allows each tab to have a drop down bar-->
         <div class="dropdown">
          <button class="dropbtn"><a href="index.html">Home</a>
            <i class="fa fa-caret-down"></i>
          </button>
          <div class="dropdown-content">
-           <!-- <a href="#">Link 1</a>
-           <a href="#">Link 2</a>
-           <a href="#">Link 3</a> -->
          </div>
          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
@@ -41,7 +39,7 @@
         </div>
 
         <div class="dropdown">
-         <button class="dropbtn"><a href="ResourcesPage.html">Resources</a>
+         <button class="dropbtn"><a href="ResourcesPage.html"  class="active">Resources</a>
            <i class="fa fa-caret-down"></i>
          </button>
          <div class="dropdown-content">
@@ -52,7 +50,7 @@
         </div>
 
       <div class="dropdown">
-       <button class="dropbtn"><a href="sat_act_page.html" class="active">SAT & ACT</a>
+       <button class="dropbtn"><a href="sat_act_page.html">SAT & ACT</a>
          <i class="fa fa-caret-down"></i>
        </button>
        <div class="dropdown-content">
@@ -78,7 +76,8 @@
        <button class="dropbtn"><a href="calendarPlanner.html">Calendar</a>
          <i class="fa fa-caret-down"></i>
        </button>
-
+       <div class="dropdown-content">
+       </div>
        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
 
@@ -87,13 +86,27 @@
       </a>
     </div>
 
-    <div class="a">
-    <p>  <font face="Cambria" style="font-size:60px;" color= "#201156">SAT & ACT</font> </p>
+    <div class = "backbutton">
+      <a href = "ResourcesPage.html">Back</a>
     </div>
-      The SAT and ACT are both multiple choice, pencil-and-paper entrance exams used by colleges and universities to compare applicants on a common point.
-      Want to learn more about each test? Explore the dropdown bar pages for sections, scoring, and helpful resources!
-  </br>
-<iframe src="https://giphy.com/embed/8FNlmNPDTo2wE" width="240" height="145" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/me-5sf-fickledavid-8FNlmNPDTo2wE"></a></p>
 
-  </body>
-</html>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="essay.html">Essay Templates</a>
+      <a href="email.html">Email Templates</a>
+      <a href="resume.html">Resume Templates</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    <!--makes a class for the header-->
+    <div class = "resourcesheader">
+      <p>Resume Templates</p>
+
+      <div class = "resume">
+        <button type="button" class="block"><a href = "https://www.internationalstudent.com/resume_writing/sample-college-admissions-resume-for-student/" target="_blank">College Admissions Resume</a></button>
+        <button type="button" class="block"><a href = "https://docs.google.com/document/d/19zJBPPfUu1kb-7EyHWxmyMbI3sIUU7eVHtCK_0YLnks/edit" target="_blank">Internship Application Resume</a></button>
+        <button type="button" class="block"><a href = "https://docs.google.com/document/d/1bbfoOG7Pkb8lI3X0ZN56UfwmXq7-SDUDkhWAAesCK-w/edit" target="_blank">Part-Time Application Resume</a></button>
+        <button type="button" class="block"><a href = "https://docs.google.com/document/d/1bbfoOG7Pkb8lI3X0ZN56UfwmXq7-SDUDkhWAAesCK-w/edit" target="_blank">Entry Level Application Resume</a></button>
+        <button type="button" class="block"><a href = "https://docs.google.com/document/d/1bbfoOG7Pkb8lI3X0ZN56UfwmXq7-SDUDkhWAAesCK-w/edit" target="_blank">No Experience Application Resume</a></button>
+      </div>
+    </div>
