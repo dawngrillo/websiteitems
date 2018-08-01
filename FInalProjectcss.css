@@ -251,6 +251,7 @@ body{
     background-color: #015249; /* Add a dark-grey background on hover */
 }
 
+<<<<<<< HEAD
 .language{
   text-align: center;
 }
@@ -285,4 +286,10 @@ a:hover {
 
 a:active {
     text-decoration: none;
+=======
+.visiontext{
+  margin-right:575px;
+}
+.logo{
+>>>>>>> d83a6faa6870908f519c11f7cecd54419c691444
 }
