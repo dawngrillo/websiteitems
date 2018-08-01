@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="FInalProjectcss.css">
 <script src="FinalProjectjs.js"></script>
+<link rel="icon" href="logo_transparent.png" type="image/gif" sizes="16x16"> <!-- the icon on the website tab -->
 <html>
   <head>
     <title>Comment/Chat</title>
@@ -9,7 +10,7 @@
   <body>
 
     <div class = "intro">
-      <font size = "24" >Name</font>
+      <font size = "24" >studycrunch</font>
     </div>
 
     <div class="topnav" id="myTopnav">
@@ -92,11 +93,9 @@
       study needs? Feel free to ask any question that could be constructive for you and others.</p>
       <form action="/html/tags/html_form_tag_action.cfm" method="post">
 <div>
-<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
-Hey... say something!
-</textarea>
+<input type="text" onfocus="this.value=''" value="question or a comment">
+<input type="reset" value="Submit">
 </div>
-<button type="button" onclick="panHome()">Submit</button>
 </form>
   </body>
 </html>
